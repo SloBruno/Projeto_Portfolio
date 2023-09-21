@@ -58,12 +58,23 @@ a{
 
 
 #eu{
-    height: 350px;
-    width: 300px;
+    height: 400px;
+    width: auto;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 8em;
 }
+
+#quadro{
+    height: auto;
+    width: 350px;
+    position: absolute;
+    top: 240px;
+    right: 275px;
+
+}
+
+
 
 #texto{
     width: 30em;
