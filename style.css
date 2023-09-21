@@ -89,6 +89,10 @@ a{
     border: 1px solid black;
 }
 
+#skills{
+    position: relative;
+    display: grid;
+}
 .container{
     max-width: 1200px;
     width: 100%;
@@ -104,7 +108,7 @@ a{
 
 #sub_skills{
     padding-top: 6.8em;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 1.3em;
 }
 
@@ -117,12 +121,38 @@ a{
 
 .list-row{
     display: flex;
-    gap: 5em;
+    justify-content: space-between;
+    width: 475px;
 }
-.hexagono{
+.hexagon{
     width: 4em;
     height: 4em;
 }
 
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    position: absolute;
+    height: auto;
+    width: 35px;
+}   
 
 
+.icon-p-container{
+    font-size: 16px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pessoa{
+    right: 40px;
+    top: 140px;
+    position: absolute;
+}
