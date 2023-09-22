@@ -13,6 +13,10 @@ body{
 }
 
 header{
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 10;
     background-color: white;
     display: flex;
     align-items: center;
@@ -69,11 +73,12 @@ a{
     height: auto;
     width: 350px;
     position: absolute;
-    top: 240px;
-    right: 275px;
-
 }
 
+#img-square{
+    align-items: center;
+    justify-content: center;
+}
 
 
 #texto{
@@ -103,6 +108,7 @@ a{
 #skills{
     position: relative;
     display: grid;
+    padding-bottom: 250px;
 }
 .container{
     max-width: 1200px;
@@ -110,6 +116,9 @@ a{
     margin: 0 auto;
 }
 
+#text-center-container{
+    margin-bottom: 100px;
+}
 .text-center{
     text-align: center;
     color: rgb(255, 99, 82);
@@ -164,6 +173,38 @@ a{
 
 #pessoa{
     right: 40px;
-    top: 140px;
+    top: 240px;
     position: absolute;
+}
+
+#projects{
+    display: flex;
+    height: 100vh;
+}
+
+.container-projects{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(52, 61, 104);
+    width: 350px;
+    height: 500px;
+}
+
+.project-image{
+    margin-top: 35px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.project-p{
+    color: white;
+    font-weight: 100;
 }
