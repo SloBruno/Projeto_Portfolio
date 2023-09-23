@@ -183,9 +183,9 @@ a{
 }
 
 .container-projects{
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: -200px;
 
 }
 
@@ -197,13 +197,13 @@ a{
     width: 350px;
     height: 500px;
     text-align: center;
-    justify-content: space-around; /* Alinhar verticalmente o conteúdo */
+    justify-content: space-around; 
 }
 
 .project-image {
     margin-top: 35px;
     max-width: 350px;
-    margin-bottom: -10px; /* Reduzir o espaçamento inferior entre a imagem e o texto */
+    margin-bottom: -10px; 
 }
 
 .project-p {
@@ -219,4 +219,32 @@ a{
     font-weight: 100;
     color: white;
     background-color: rgb(52, 61, 104);
+}
+
+#contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+
+#forms{
+    display: flex;
+    flex-direction: column;
+}
+
+#text-center-contact{
+    text-align: left;
+    color: rgb(255, 99, 82) !important;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
