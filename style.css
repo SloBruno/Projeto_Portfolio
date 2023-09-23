@@ -183,28 +183,40 @@ a{
 }
 
 .container-projects{
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: -200px;
 
 }
 
-.project-box{
+.project-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(52, 61, 104);
     width: 350px;
     height: 500px;
+    text-align: center;
+    justify-content: space-around; /* Alinhar verticalmente o conteúdo */
 }
 
-.project-image{
+.project-image {
     margin-top: 35px;
     max-width: 350px;
-    margin-bottom: 30px;
+    margin-bottom: -10px; /* Reduzir o espaçamento inferior entre a imagem e o texto */
 }
 
-.project-p{
+.project-p {
     color: white;
     font-weight: 100;
+    margin-bottom: -20px; 
+}
+
+.button-project {
+    padding: 15px 40px;
+    border: 3px solid white;
+    box-shadow: none;
+    font-weight: 100;
+    color: white;
+    background-color: rgb(52, 61, 104);
 }
