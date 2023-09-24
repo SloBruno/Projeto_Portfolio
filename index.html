@@ -141,17 +141,17 @@
             <div class="container">
                 <div id="contact-container">
                     <div id="content">
-                        <h1 class="text-center-contact">Me Contate</h1>
-                        <img src="imagens/imagem-contato.png" alt="contato">
+                        <h1 class="title-contact">Me Contate</h1>
+                        <img id="contact-image" src="imagens/imagem-contato.png" alt="contato">
                     </div>
                     
                     <div id="forms">
                         <form action="https://formsubmit.co/bruno_slominski@estudante.sesisenai.org.br" method="POST">
-                            <div>  
-                                <input class="form-input" type="email" name="email" placeholder="Seu enderço de e-mail"/>
-                                <textarea type="text" name="message" placeholder="Mensagem..." required></textarea>
-                                <button type="submit">Send</button>
-                                <input type="hidden" name="_next" value="#c">
+                            <div id="forms-container">  
+                                <input type="email" name="email" placeholder="Seu enderço de e-mail:" required/>
+                                <input type="message" name="message" placeholder="Mensagem..." required>
+                                <button id="button-form" type="submit">Mande Mensagem <i class='bx bxs-paper-plane'></i></button>
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
                                 <input type="hidden" name="_captcha" value="false">
                             </div>
                     </form>
@@ -159,6 +159,10 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <img id="wave" src="imagens/wave.svg" alt="wave">
+        </footer>
     </main>
 </body>
 
