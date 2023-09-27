@@ -337,11 +337,31 @@ textarea {
     margin-top: 27px;
 }
 
-#title-social{
+.title-social{
     color: white;
     font-weight: 100;
 }
 
 #github-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#github-link{
+    display: inline;
+    color: rgb(32, 127, 144);
+}
+
+#github-p{
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+i.bxl-github {
+    padding-right: 9px;
+    font-size: 35px; 
+    color: white;
+    vertical-align: middle;
 }
