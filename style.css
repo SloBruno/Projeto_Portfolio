@@ -291,3 +291,24 @@ textarea {
     width: 400px;
 }
 
+#footer-container{
+    display: block;
+    width: 100%;
+    bottom: 0;
+}
+
+#wave {
+    display: flex;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#socials-container{
+    display: flex: 300px;
+
+}
+
