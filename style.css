@@ -163,7 +163,6 @@ a{
     width: 35px;
 }   
 
-
 .icon-p-container{
     font-size: 16px ;
     display: flex;
@@ -171,10 +170,15 @@ a{
     align-items: center;
 }
 
-#pessoa{
-    right: 40px;
-    top: 240px;
-    position: absolute;
+#skills-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#img-container{
+    margin-bottom: 25px;
 }
 
 #projects{
