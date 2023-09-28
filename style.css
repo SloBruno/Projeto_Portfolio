@@ -61,6 +61,7 @@ a{
 }
 
 
+
 #eu{
     height: 400px;
     width: auto;
@@ -108,7 +109,7 @@ a{
 #skills{
     position: relative;
     display: grid;
-    padding-bottom: 250px;
+    padding-bottom: 50px;
 }
 .container{
     max-width: 1200px;
@@ -116,9 +117,6 @@ a{
     margin: 0 auto;
 }
 
-#text-center-container{
-    margin-bottom: 100px;
-}
 .text-center{
     text-align: center;
     color: rgb(255, 99, 82);
@@ -127,7 +125,7 @@ a{
 }
 
 #sub_skills{
-    padding-top: 6.8em;
+    padding-top: 3em;
     font-weight: 100;
     font-size: 1.3em;
 }
@@ -182,6 +180,7 @@ a{
 }
 
 #projects{
+    margin-bottom: 50px;
     display: flex;
     height: 100vh;
 }
@@ -353,7 +352,7 @@ textarea {
 
 #github-link{
     display: inline;
-    color: rgb(32, 127, 144);
+    color: rgb(37, 157, 179);
 }
 
 #github-p{
